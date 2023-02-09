@@ -1,0 +1,21 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "LED0",
+					"strict" : false
+				},
+				{
+					"name" : "LED1",
+					"strict" : false
+				},
+				{
+					"name" : "CLK_50M",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

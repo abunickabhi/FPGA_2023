@@ -1,0 +1,98 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/ieee_ ws/LED_blink/simulation/modelsim
+Eled_tb
+Z1 w1516277808
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+Z4 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z7 8C:/ieee_ ws/LED_blink/simulation/modelsim/LED_TB.vhd
+Z8 FC:/ieee_ ws/LED_blink/simulation/modelsim/LED_TB.vhd
+l0
+L9
+Vm`M4=983C<mC<1kzhQebl1
+!s100 40UeHK;g6DN^YHBfam>ok0
+Z9 OV;C;10.5b;63
+31
+Z10 !s110 1516278156
+!i10b 1
+Z11 !s108 1516278156.000000
+Z12 !s90 -reportprogress|300|-93|-work|work|C:/ieee_ ws/LED_blink/simulation/modelsim/LED_TB.vhd|
+Z13 !s107 C:/ieee_ ws/LED_blink/simulation/modelsim/LED_TB.vhd|
+!i113 1
+Z14 o-93 -work work
+Z15 tExplicit 1 CvgOpt 0
+Aled_tb_arch
+R2
+R3
+R4
+R5
+R6
+DEx4 work 6 led_tb 0 22 m`M4=983C<mC<1kzhQebl1
+l22
+L12
+VENgOFQ;>7b3WVF:SQHUY90
+!s100 2XKamT3=@zKN=5NOWWfa;0
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Emax_10_board_top
+Z16 w1516277564
+R2
+R4
+R5
+R6
+R0
+Z17 8C:/ieee_ ws/LED_blink/max_10_board_top.vhd
+Z18 FC:/ieee_ ws/LED_blink/max_10_board_top.vhd
+l0
+L6
+Vkhd7EaZn@`7GO3;MAY^E82
+!s100 _`_Fz5dKo`<oC<Q2YL7]_1
+R9
+31
+R10
+!i10b 1
+R11
+Z19 !s90 -reportprogress|300|-93|-work|work|C:/ieee_ ws/LED_blink/max_10_board_top.vhd|
+Z20 !s107 C:/ieee_ ws/LED_blink/max_10_board_top.vhd|
+!i113 1
+R14
+R15
+Abehav
+R2
+R4
+R5
+R6
+DEx4 work 16 max_10_board_top 0 22 khd7EaZn@`7GO3;MAY^E82
+l34
+L19
+VYBlGViDlecZU3ScMYHJN?1
+!s100 NacPjM52zE2hAgnQGhcac3
+R9
+31
+R10
+!i10b 1
+R11
+R19
+R20
+!i113 1
+R14
+R15

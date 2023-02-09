@@ -1,0 +1,61 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+# do max_10_board_top_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/ieee_ ws/LED_blink/max_10_board_top.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:52:36 on Jan 18,2018
+# vcom -reportprogress 300 -93 -work work C:/ieee_ ws/LED_blink/max_10_board_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity max_10_board_top
+# -- Compiling architecture behav of max_10_board_top
+# End time: 17:52:36 on Jan 18,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {C:/ieee_ ws/LED_blink/simulation/modelsim/LED_TB.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:52:36 on Jan 18,2018
+# vcom -reportprogress 300 -93 -work work C:/ieee_ ws/LED_blink/simulation/modelsim/LED_TB.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_textio
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity LED_TB
+# -- Compiling architecture LED_TB_arch of LED_TB
+# End time: 17:52:36 on Jan 18,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  LED_TB
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs=""+acc"" LED_TB 
+# Start time: 17:52:36 on Jan 18,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.led_tb(led_tb_arch)
+# Loading work.max_10_board_top(behav)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# End time: 17:55:36 on Jan 18,2018, Elapsed time: 0:03:00
+# Errors: 0, Warnings: 0

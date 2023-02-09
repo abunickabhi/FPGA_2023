@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Mon Dec 24 11:20:11 2018
+Quartus Prime Version : 17.0.0 Build 595 04/25/2017 SJ Standard Edition
+Revision Name : not_button
+Top-level Entity Name : not_button
+Family : MAX 10
+Total logic elements : 0
+    Total combinational functions : 0
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 2
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0
