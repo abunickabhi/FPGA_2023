@@ -26,12 +26,13 @@ See the following links for instalation of the toolchain [ quartus + modelsim ] 
 The following excercises have been designed to get you started with the toolchain interface and basics of VHDL programming.
 
 ### Exercise 1 : Inplementation of NOT gate
- - `1_NOT_BUTTON`
+ - `1_NOT_BUTTON/`
     - A simple NOT gate is implemented in VHDL
-### Exercise 2 :
- - `2_LED_blink`
+### Exercise 2 : Implementation of  frequncy deviders 
+ - `2_LED_blink/`
     - Frequncy divider connected to LEDs
-
+### Exercise 3 : 
+ - ``3_HEX_COUNTER/` 
+    - A Counter with outputs encoded and displayed in a 7-Segment 
 TIFR,Mumbai
-
 February, 2023
