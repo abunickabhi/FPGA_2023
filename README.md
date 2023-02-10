@@ -29,5 +29,9 @@ The following excercises have been designed to get you started with the toolchai
  - `1_NOT_BUTTON`
     - A simple NOT gate is implemented in VHDL
 ### Exercise 2 :
+ - `2_LED_blink`
+    - Frequncy divider connected to LEDs
+
 TIFR,Mumbai
+
 February, 2023
