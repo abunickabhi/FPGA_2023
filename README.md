@@ -1,4 +1,5 @@
-# FPGA_ICFA_2023
+# Introduction to FPGA and RTL for trigger in HEP
+
 Codes for getting started with MAX10 FPGA board from a physics perspective.
 
 ## Introduction
@@ -14,6 +15,8 @@ general user peripheral with LEDs, 7-segment displays and push-buttons
 
 See the following links for instalation of the toolchain [ quartus + modelsim ] and setting up the connectivity to the Max10 board for programming.
  - [Inatalation of Quartus Lite](https://www.tifr.res.in/~icfa2023/assets/doc/InstallationSteps.pdf)
+ - Inatalation of ModelSim
+   - [Linux](https://profile.iiita.ac.in/bibhas.ghoshal/COA_2020/Lab/ModelSim%20Linux%20installation.html) , it is recomended to install the 20.1 version
  - [Instalation of drivers for the Max10 Board and an a demo of the toolchain ](https://www.tifr.res.in/~icfa2023/assets/doc/JTAG_Driver.pdf)
 
 ## Datasheets and Manuals
@@ -25,6 +28,6 @@ The following excercises have been designed to get you started with the toolchai
 ### Exercise 1 : Inplementation of NOT gate
  - `1_NOT_BUTTON`
     - A simple NOT gate is implemented in VHDL
-
+### Exercise 2 :
 TIFR,Mumbai
 February, 2023
