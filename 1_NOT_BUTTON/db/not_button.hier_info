@@ -1,5 +1,0 @@
-|not_button
-inPort => outPort.DATAIN
-outPort << inPort.DB_MAX_OUTPUT_PORT_TYPE
-
-
