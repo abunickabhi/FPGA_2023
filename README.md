@@ -38,7 +38,7 @@ The following excercises have been designed to get you started with the toolchai
  - `4_Counter_8b/`
    - An 8 bit counter is implemented
    - A testbench is developed for checking the logic
-### Exercise 4 : Pseudo Random Bits using Linear-feedback Shift Register [ LFSR ]
+### Exercise 5 : Pseudo Random Bits using Linear-feedback Shift Register [ LFSR ]
  - `5_PseudoRandomNumgerGen/`
    - See more information about LSFR [here](https://en.wikipedia.org/wiki/Linear-feedback_shift_register)
    - `5_PseudoRandomNumgerGen/lsfr.vhd`  : Implementation of lsfr
