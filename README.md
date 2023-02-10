@@ -33,7 +33,14 @@ The following excercises have been designed to get you started with the toolchai
     - Frequncy divider connected to LEDs
 ### Exercise 3 : 
  - `3_HEX_COUNTER/` 
-    - A Counter with outputs encoded and displayed in a 7-Segment 
+    - A Counter with outputs encoded and displayed in a 7-Segment Display
+### Exercise 4 : Pseudo Random Bits using Linear-feedback Shift Register [ LFSR ]
+ - `4_PseudoRandomNumgerGen/`
+   - See more information about LSFR [here](https://en.wikipedia.org/wiki/Linear-feedback_shift_register)
+   - `4_PseudoRandomNumgerGen/lsfr.vhd`  : Implementation of lsfr
+   - `4_PseudoRandomNumgerGen/randomBit.vhd` : Driving an LED with a random bit
+   - `4_PseudoRandomNumgerGen/randomNumber.vhd` : Display a random number on the 7-segment display
+
 
 TIFR,Mumbai
 February, 2023
