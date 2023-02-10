@@ -34,13 +34,17 @@ The following excercises have been designed to get you started with the toolchai
 ### Exercise 3 : 
  - `3_HEX_COUNTER/` 
     - A Counter with outputs encoded and displayed in a 7-Segment Display
+### Exercise 4 :
+ - `4_Counter_8b/`
+   - An 8 bit counter is implemented
+   - A testbench is developed for checking the logic
 ### Exercise 4 : Pseudo Random Bits using Linear-feedback Shift Register [ LFSR ]
- - `4_PseudoRandomNumgerGen/`
+ - `5_PseudoRandomNumgerGen/`
    - See more information about LSFR [here](https://en.wikipedia.org/wiki/Linear-feedback_shift_register)
-   - `4_PseudoRandomNumgerGen/lsfr.vhd`  : Implementation of lsfr
-   - `4_PseudoRandomNumgerGen/randomBit.vhd` : Driving an LED with a random bit
-   - `4_PseudoRandomNumgerGen/randomNumber.vhd` : Display a random number on the 7-segment display
+   - `5_PseudoRandomNumgerGen/lsfr.vhd`  : Implementation of lsfr
+   - `5_PseudoRandomNumgerGen/randomBit.vhd` : Driving an LED with a random bit
+   - `5_PseudoRandomNumgerGen/randomNumber.vhd` : Display a random number on the 7-segment display
 
 
-TIFR,Mumbai
-February, 2023
+    TIFR,Mumbai
+    February, 2023

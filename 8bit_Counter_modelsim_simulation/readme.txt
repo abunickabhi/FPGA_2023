@@ -1,1 +1,0 @@
-Code imported from aravind and run in modelsim 10.5
