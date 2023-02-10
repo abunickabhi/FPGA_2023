@@ -32,7 +32,8 @@ The following excercises have been designed to get you started with the toolchai
  - `2_LED_blink/`
     - Frequncy divider connected to LEDs
 ### Exercise 3 : 
- - ``3_HEX_COUNTER/` 
+ - `3_HEX_COUNTER/` 
     - A Counter with outputs encoded and displayed in a 7-Segment 
+
 TIFR,Mumbai
 February, 2023
