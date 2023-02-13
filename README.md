@@ -41,7 +41,7 @@ The following excercises have been designed to get you started with the toolchai
 
 Additional Exececise available in the [`leanDev`](https://github.com/abunickabhi/FPGA_ICFA_2023/tree/leanDev) branch
 ### Exercise 5 : Pseudo Random Bits using Linear-feedback Shift Register [ LFSR ]
- - `5_PseudoRandomNumgerGen/`
+ - `5_PseudoRandomNumberGen/`
    - See more information about LSFR [here](https://en.wikipedia.org/wiki/Linear-feedback_shift_register)
    - `5_PseudoRandomNumgerGen/lsfr.vhd`  : Implementation of lsfr
    - `5_PseudoRandomNumgerGen/randomBit.vhd` : Driving an LED with a random bit
