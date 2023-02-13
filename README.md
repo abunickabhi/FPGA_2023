@@ -13,6 +13,9 @@ The MAX_10_Board has a collection of interfaces including two external GPIO head
 beyond the MAX_10_Board, on-board USB-to-serial interface device for interfacing to a PC, as well as
 general user peripheral with LEDs, 7-segment displays and push-buttons
 
+See a set of slides for the school here :
+- [ICFA : Field Programmable Gate Array (FPGA) Session](https://cernbox.cern.ch/s/iaIdKIaKCcFOSqc)
+
 See the following links for instalation of the toolchain [ quartus + modelsim ] and setting up the connectivity to the Max10 board for programming.
  - [Inatalation of Quartus Lite](https://www.tifr.res.in/~icfa2023/assets/doc/InstallationSteps.pdf)
  - Inatalation of ModelSim
