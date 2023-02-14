@@ -50,6 +50,10 @@ Additional Exececise available in the [`leanDev`](https://github.com/abunickabhi
    - `5_PseudoRandomNumgerGen/randomBit.vhd` : Driving an LED with a random bit
    - `5_PseudoRandomNumgerGen/randomNumber.vhd` : Display a random number on the 7-segment display
 
-
+### Fix for `libpng`  error
+```
+sudo add-apt-repository ppa:linuxuprising/libpng12
+sudo apt install libpng12-0
+```
 - TIFR, Mumbai
 - February, 2023
