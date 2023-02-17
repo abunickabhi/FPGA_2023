@@ -50,6 +50,7 @@ Available in the [`leanDev`](https://github.com/abunickabhi/FPGA_ICFA_2023/tree/
    - `5_PseudoRandomNumgerGen/randomBit.vhd` : Driving an LED with a random bit
    - `5_PseudoRandomNumgerGen/randomNumber.vhd` : Display a random number on the 7-segment display
 
+<<<<<<< HEAD
 ### More Logic Exercises :
 Combinational Logic
 Fibonacci Sequence
@@ -63,5 +64,12 @@ Finite State Machine
 ### Your idea that helps in your physics work :
 It can be anything that helps you with your thesis and instrumentation work.
 
+=======
+### Fix for `libpng`  error
+```
+sudo add-apt-repository ppa:linuxuprising/libpng12
+sudo apt install libpng12-0
+```
+>>>>>>> ff22077f936b5fa5344dad30cf38bf38c98cb867
 - TIFR, Mumbai
 - February, 2023
