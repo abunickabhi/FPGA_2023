@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Thu Mar 23 16:48:44 2023
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : randombitt
+Top-level Entity Name : randomBit
+Family : MAX 10
+Total logic elements : 69
+    Total combinational functions : 60
+    Dedicated logic registers : 48
+Total registers : 48
+Total pins : 4
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0
