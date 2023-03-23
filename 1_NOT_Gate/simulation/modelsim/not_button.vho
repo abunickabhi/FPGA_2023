@@ -1,4 +1,4 @@
--- Copyright (C) 2017  Intel Corporation. All rights reserved.
+-- Copyright (C) 2018  Intel Corporation. All rights reserved.
 -- Your use of Intel Corporation's design tools, logic functions 
 -- and other software and tools, and its AMPP partner logic 
 -- functions, and any output files from any of the foregoing 
@@ -6,18 +6,17 @@
 -- associated documentation or information are expressly subject 
 -- to the terms and conditions of the Intel Program License 
 -- Subscription Agreement, the Intel Quartus Prime License Agreement,
--- the Intel MegaCore Function License Agreement, or other 
--- applicable license agreement, including, without limitation, 
--- that your use is for the sole purpose of programming logic 
--- devices manufactured by Intel and sold by Intel or its 
--- authorized distributors.  Please refer to the applicable 
--- agreement for further details.
+-- the Intel FPGA IP License Agreement, or other applicable license
+-- agreement, including, without limitation, that your use is for
+-- the sole purpose of programming logic devices manufactured by
+-- Intel and sold by Intel or its authorized distributors.  Please
+-- refer to the applicable agreement for further details.
 
 -- VENDOR "Altera"
 -- PROGRAM "Quartus Prime"
--- VERSION "Version 17.0.0 Build 595 04/25/2017 SJ Standard Edition"
+-- VERSION "Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition"
 
--- DATE "12/24/2018 11:20:27"
+-- DATE "03/23/2023 17:03:47"
 
 -- 
 -- Device: Altera 10M02SCE144C8G Package EQFP144
@@ -89,7 +88,7 @@ USE IEEE.STD_LOGIC_1164.ALL;
 ENTITY 	not_button IS
     PORT (
 	inPort : IN std_logic;
-	outPort : BUFFER std_logic
+	outPort : OUT std_logic
 	);
 END not_button;
 
@@ -114,7 +113,6 @@ SIGNAL \~QUARTUS_CREATED_GND~I_combout\ : std_logic;
 SIGNAL \~QUARTUS_CREATED_UNVM~~busy\ : std_logic;
 SIGNAL \outPort~output_o\ : std_logic;
 SIGNAL \inPort~input_o\ : std_logic;
-SIGNAL \ALT_INV_inPort~input_o\ : std_logic;
 
 COMPONENT hard_block
     PORT (
@@ -130,7 +128,6 @@ outPort <= ww_outPort;
 ww_devoe <= devoe;
 ww_devclrn <= devclrn;
 ww_devpor <= devpor;
-\ALT_INV_inPort~input_o\ <= NOT \inPort~input_o\;
 auto_generated_inst : hard_block
 PORT MAP (
 	devoe => ww_devoe,
@@ -158,7 +155,7 @@ GENERIC MAP (
 	open_drain_output => "false")
 -- pragma translate_on
 PORT MAP (
-	i => \ALT_INV_inPort~input_o\,
+	i => \inPort~input_o\,
 	devoe => ww_devoe,
 	o => \outPort~output_o\);
 

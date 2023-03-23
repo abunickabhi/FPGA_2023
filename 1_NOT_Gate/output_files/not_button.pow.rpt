@@ -1,6 +1,6 @@
-PowerPlay Power Analyzer report for not_button
-Mon Dec 24 11:20:22 2018
-Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Standard Edition
+Power Analyzer report for not_button
+Thu Mar 23 17:03:39 2023
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
 ---------------------
@@ -8,8 +8,8 @@ Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Standard Edition
 ---------------------
   1. Legal Notice
   2. Parallel Compilation
-  3. PowerPlay Power Analyzer Summary
-  4. PowerPlay Power Analyzer Settings
+  3. Power Analyzer Summary
+  4. Power Analyzer Settings
   5. Indeterminate Toggle Rates
   6. Operating Conditions Used
   7. Thermal Power Dissipation by Block
@@ -20,14 +20,14 @@ Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Standard Edition
  12. VCCIO Supply Current Drawn by Voltage
  13. Confidence Metric Details
  14. Signal Activities
- 15. PowerPlay Power Analyzer Messages
+ 15. Power Analyzer Messages
 
 
 
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 2017  Intel Corporation. All rights reserved.
+Copyright (C) 2018  Intel Corporation. All rights reserved.
 Your use of Intel Corporation's design tools, logic functions 
 and other software and tools, and its AMPP partner logic 
 functions, and any output files from any of the foregoing 
@@ -35,12 +35,11 @@ functions, and any output files from any of the foregoing
 associated documentation or information are expressly subject 
 to the terms and conditions of the Intel Program License 
 Subscription Agreement, the Intel Quartus Prime License Agreement,
-the Intel MegaCore Function License Agreement, or other 
-applicable license agreement, including, without limitation, 
-that your use is for the sole purpose of programming logic 
-devices manufactured by Intel and sold by Intel or its 
-authorized distributors.  Please refer to the applicable 
-agreement for further details.
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
 
 
 
@@ -49,23 +48,23 @@ agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 4           ;
-; Maximum allowed            ; 4           ;
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 8           ;
 ;                            ;             ;
-; Average used               ; 1.00        ;
-; Maximum used               ; 4           ;
+; Average used               ; 1.01        ;
+; Maximum used               ; 8           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-4         ;   0.1%      ;
+;     Processors 2-8         ;   0.1%      ;
 +----------------------------+-------------+
 
 
 +-------------------------------------------------------------------------------------------+
-; PowerPlay Power Analyzer Summary                                                          ;
+; Power Analyzer Summary                                                                    ;
 +----------------------------------------+--------------------------------------------------+
-; PowerPlay Power Analyzer Status        ; Successful - Mon Dec 24 11:20:22 2018            ;
-; Quartus Prime Version                  ; 17.0.0 Build 595 04/25/2017 SJ Standard Edition  ;
+; Power Analyzer Status                  ; Successful - Thu Mar 23 17:03:39 2023            ;
+; Quartus Prime Version                  ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition      ;
 ; Revision Name                          ; not_button                                       ;
 ; Top-level Entity Name                  ; not_button                                       ;
 ; Family                                 ; MAX 10                                           ;
@@ -79,28 +78,28 @@ agreement for further details.
 +----------------------------------------+--------------------------------------------------+
 
 
-+------------------------------------------------------------------------------------------------------+
-; PowerPlay Power Analyzer Settings                                                                    ;
-+----------------------------------------------------------------------------+---------+---------------+
-; Option                                                                     ; Setting ; Default Value ;
-+----------------------------------------------------------------------------+---------+---------------+
-; Use smart compilation                                                      ; Off     ; Off           ;
-; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On      ; On            ;
-; Enable compact report table                                                ; Off     ; Off           ;
-; Default Power Toggle Rate                                                  ; 12.5%   ; 12.5%         ;
-; Default Power Input I/O Toggle Rate                                        ; 12.5%   ; 12.5%         ;
-; Use vectorless estimation                                                  ; On      ; On            ;
-; Use Input Files                                                            ; Off     ; Off           ;
-; Filter Glitches in VCD File Reader                                         ; On      ; On            ;
-; Power Analyzer Report Signal Activity                                      ; Off     ; Off           ;
-; Power Analyzer Report Power Dissipation                                    ; Off     ; Off           ;
-; Device Power Characteristics                                               ; TYPICAL ; TYPICAL       ;
-; Automatically Compute Junction Temperature                                 ; On      ; On            ;
-; Specified Junction Temperature                                             ; 25      ; 25            ;
-; Ambient Temperature                                                        ; 25      ; 25            ;
-; Use Custom Cooling Solution                                                ; Off     ; Off           ;
-; Board Temperature                                                          ; 25      ; 25            ;
-+----------------------------------------------------------------------------+---------+---------------+
++--------------------------------------------------------------------------------------------+
+; Power Analyzer Settings                                                                    ;
++------------------------------------------------------------------+---------+---------------+
+; Option                                                           ; Setting ; Default Value ;
++------------------------------------------------------------------+---------+---------------+
+; Use smart compilation                                            ; Off     ; Off           ;
+; Enable parallel Assembler and Timing Analyzer during compilation ; On      ; On            ;
+; Enable compact report table                                      ; Off     ; Off           ;
+; Default Power Toggle Rate                                        ; 12.5%   ; 12.5%         ;
+; Default Power Input I/O Toggle Rate                              ; 12.5%   ; 12.5%         ;
+; Use vectorless estimation                                        ; On      ; On            ;
+; Use Input Files                                                  ; Off     ; Off           ;
+; Filter Glitches in VCD File Reader                               ; On      ; On            ;
+; Power Analyzer Report Signal Activity                            ; Off     ; Off           ;
+; Power Analyzer Report Power Dissipation                          ; Off     ; Off           ;
+; Device Power Characteristics                                     ; TYPICAL ; TYPICAL       ;
+; Automatically Compute Junction Temperature                       ; On      ; On            ;
+; Specified Junction Temperature                                   ; 25      ; 25            ;
+; Ambient Temperature                                              ; 25      ; 25            ;
+; Use Custom Cooling Solution                                      ; Off     ; Off           ;
+; Board Temperature                                                ; 25      ; 25            ;
++------------------------------------------------------------------+---------+---------------+
 
 
 +--------------------------------------+
@@ -242,18 +241,18 @@ agreement for further details.
 (1) The "Signal Activity" Table has been hidden. To show this table, please select the "Write signal activities to report file" option under "PowerPlay Power Analyzer Settings".
 
 
-+-----------------------------------+
-; PowerPlay Power Analyzer Messages ;
-+-----------------------------------+
++-------------------------+
+; Power Analyzer Messages ;
++-------------------------+
 Info: *******************************************************************
-Info: Running Quartus Prime PowerPlay Power Analyzer
-    Info: Version 17.0.0 Build 595 04/25/2017 SJ Standard Edition
-    Info: Processing started: Mon Dec 24 11:20:19 2018
+Info: Running Quartus Prime Power Analyzer
+    Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+    Info: Processing started: Thu Mar 23 17:03:35 2023
 Info: Command: quartus_pow --read_settings_files=off --write_settings_files=off not_button -c not_button
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (21077): Low junction temperature is 0 degrees C
 Info (21077): High junction temperature is 85 degrees C
-Critical Warning (332012): Synopsys Design Constraints File file not found: 'not_button.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Critical Warning (332012): Synopsys Design Constraints File file not found: 'not_button.sdc'. A Synopsys Design Constraints File is required by the Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
 Warning (332068): No clocks defined in design.
 Info (223000): Starting Vectorless Power Activity Estimation
 Warning (222013): Relative toggle rates could not be calculated because no clock domain could be identified for some nodes
@@ -264,10 +263,10 @@ Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (215049): Average toggle rate for this design is 0.000 millions of transitions / sec
 Info (215031): Total thermal power estimate for the design is 78.03 mW
-Info: Quartus Prime PowerPlay Power Analyzer was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 664 megabytes
-    Info: Processing ended: Mon Dec 24 11:20:22 2018
-    Info: Elapsed time: 00:00:03
-    Info: Total CPU time (on all processors): 00:00:03
+Info: Quartus Prime Power Analyzer was successful. 0 errors, 5 warnings
+    Info: Peak virtual memory: 4848 megabytes
+    Info: Processing ended: Thu Mar 23 17:03:40 2023
+    Info: Elapsed time: 00:00:05
+    Info: Total CPU time (on all processors): 00:00:04
 
 

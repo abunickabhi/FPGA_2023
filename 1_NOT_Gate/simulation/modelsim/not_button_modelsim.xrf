@@ -1,10 +1,10 @@
 vendor_name = ModelSim
-source_file = 1, D:/SCHOOL2018/cODES/NOT_BUTTON/not_button.vhd
-source_file = 1, e:/intelfpga/17.0/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
-source_file = 1, e:/intelfpga/17.0/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
-source_file = 1, e:/intelfpga/17.0/quartus/libraries/vhdl/ieee/timing_b.vhd
-source_file = 1, e:/intelfpga/17.0/quartus/libraries/vhdl/ieee/timing_p.vhd
-source_file = 1, D:/SCHOOL2018/cODES/NOT_BUTTON/db/not_button.cbx.xml
+source_file = 1, D:/Courses/FPGA_TIFR/FPGA_2023/1_NOT_Gate/not_button.vhd
+source_file = 1, d:/softwares/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, d:/softwares/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, d:/softwares/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, d:/softwares/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, D:/Courses/FPGA_TIFR/FPGA_2023/1_NOT_Gate/db/not_button.cbx.xml
 design_name = hard_block
 design_name = not_button
 instance = comp, \~QUARTUS_CREATED_GND~I\, ~QUARTUS_CREATED_GND~I, not_button, 1

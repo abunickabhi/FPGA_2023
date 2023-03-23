@@ -10,8 +10,6 @@ end not_button;
 
 --FUNCTIONAL DESCRIPTION: how the Inverter works
 architecture func of not_button is
---signal inPort: STD_LOGIC:= '0';	
-
 begin
    outPort <= not inPort;
 end func;
