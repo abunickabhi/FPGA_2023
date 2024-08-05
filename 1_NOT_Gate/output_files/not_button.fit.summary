@@ -1,0 +1,18 @@
+Fitter Status : Successful - Thu Mar 23 17:03:32 2023
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : not_button
+Top-level Entity Name : not_button
+Family : MAX 10
+Device : 10M02SCE144C8G
+Timing Models : Final
+Total logic elements : 1 / 2,304 ( < 1 % )
+    Total combinational functions : 1 / 2,304 ( < 1 % )
+    Dedicated logic registers : 0 / 2,304 ( 0 % )
+Total registers : 0
+Total pins : 2 / 101 ( 2 % )
+Total virtual pins : 0
+Total memory bits : 0 / 110,592 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 32 ( 0 % )
+Total PLLs : 0 / 1 ( 0 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0

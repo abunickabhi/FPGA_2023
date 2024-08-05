@@ -1,0 +1,91 @@
+Assembler report for not_button
+Thu Mar 23 17:03:34 2023
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Assembler Summary
+  3. Assembler Settings
+  4. Assembler Generated Files
+  5. Assembler Device Options: D:/Courses/FPGA_TIFR/FPGA_2023/1_NOT_Gate/output_files/not_button.sof
+  6. Assembler Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++---------------------------------------------------------------+
+; Assembler Summary                                             ;
++-----------------------+---------------------------------------+
+; Assembler Status      ; Successful - Thu Mar 23 17:03:34 2023 ;
+; Revision Name         ; not_button                            ;
+; Top-level Entity Name ; not_button                            ;
+; Family                ; MAX 10                                ;
+; Device                ; 10M02SCE144C8G                        ;
++-----------------------+---------------------------------------+
+
+
++----------------------------------+
+; Assembler Settings               ;
++--------+---------+---------------+
+; Option ; Setting ; Default Value ;
++--------+---------+---------------+
+
+
++-----------------------------------------------------------------------+
+; Assembler Generated Files                                             ;
++-----------------------------------------------------------------------+
+; File Name                                                             ;
++-----------------------------------------------------------------------+
+; D:/Courses/FPGA_TIFR/FPGA_2023/1_NOT_Gate/output_files/not_button.sof ;
++-----------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------+
+; Assembler Device Options: D:/Courses/FPGA_TIFR/FPGA_2023/1_NOT_Gate/output_files/not_button.sof ;
++----------------+--------------------------------------------------------------------------------+
+; Option         ; Setting                                                                        ;
++----------------+--------------------------------------------------------------------------------+
+; JTAG usercode  ; 0x0002C9FF                                                                     ;
+; Checksum       ; 0x0002C9FF                                                                     ;
++----------------+--------------------------------------------------------------------------------+
+
+
++--------------------+
+; Assembler Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Assembler
+    Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+    Info: Processing started: Thu Mar 23 17:03:34 2023
+Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off not_button -c not_button
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (115031): Writing out detailed assembly data for power analysis
+Info (115030): Assembler is generating device programming files
+Info: Quartus Prime Assembler was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4669 megabytes
+    Info: Processing ended: Thu Mar 23 17:03:34 2023
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:01
+
+

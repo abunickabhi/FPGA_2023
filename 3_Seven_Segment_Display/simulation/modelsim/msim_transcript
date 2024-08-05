@@ -1,0 +1,27 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+# do max_10_board_top_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/ieee_ ws/quartus - Copy - Copy - Copy/max_10_board_top.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:43:33 on Jan 17,2018
+# vcom -reportprogress 300 -93 -work work C:/ieee_ ws/quartus - Copy - Copy - Copy/max_10_board_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity max_10_board_top
+# -- Compiling architecture behav of max_10_board_top
+# End time: 14:43:34 on Jan 17,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# Break key hit
