@@ -11,7 +11,7 @@ programmable logic device. The board is designed to be used in the simplest poss
 targeting the Intel/Altera MAX 10 device up to 2000 LEs.
 The MAX_10_Board has a collection of interfaces including two external GPIO headers to extend designs
 beyond the MAX_10_Board, on-board USB-to-serial interface device for interfacing to a PC, as well as
-general user peripheral with LEDs, 7-segment displays and push-buttons
+general user peripheral with LEDs, 7-segment displays and push-buttons.
 
 See a set of slides for the school here :
 - [ICFA : Field Programmable Gate Array (FPGA) Session](https://cernbox.cern.ch/s/iaIdKIaKCcFOSqc)
@@ -42,7 +42,7 @@ The following excercises have been designed to get you started with the toolchai
    - An 8 bit counter is implemented
    - A testbench is developed for checking the logic
 
-Additional Exececise available in the [`leanDev`](https://github.com/abunickabhi/FPGA_ICFA_2023/tree/leanDev) branch
+Additional Exercises available in the [`leanDev`](https://github.com/abunickabhi/FPGA_ICFA_2023/tree/leanDev) branch
 ### Exercise 5 : Pseudo Random Bits using Linear-feedback Shift Register [ LFSR ]
  - `5_PseudoRandomNumberGen/`
    - See more information about LSFR [here](https://en.wikipedia.org/wiki/Linear-feedback_shift_register)
@@ -50,7 +50,7 @@ Additional Exececise available in the [`leanDev`](https://github.com/abunickabhi
    - `5_PseudoRandomNumgerGen/randomBit.vhd` : Driving an LED with a random bit
    - `5_PseudoRandomNumgerGen/randomNumber.vhd` : Display a random number on the 7-segment display
 
-### Fix for `libpng`  error
+### Fix for `libpng`  error for linux Quartus installation
 ```
 sudo add-apt-repository ppa:linuxuprising/libpng12
 sudo apt install libpng12-0
