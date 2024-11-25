@@ -2,11 +2,7 @@ VHDL codes for getting started with MAX10 FPGA board for physics students
 
 ## Introduction
 
-The MAX_10_Dev_Board presents a compact and low priced FPGA development platform suitable for new
-comers to the FPGA world. The on-board Altera/Intel® MAX® 10 FPGA revolutionizes non-volatile
-integration by delivering advanced processing capabilities in a low-cost, single chip small form factor
-programmable logic device. The board is designed to be used in the simplest possible implementation
-targeting the Intel/Altera MAX 10 device up to 2000 LEs.
+The custom MAX_10_Dev_Board presents a compact and low priced FPGA development platform suitable for new comers to the FPGA world. The on-board Altera/Intel® MAX® 10 FPGA revolutionizes non-volatile integration by delivering advanced processing capabilities in a low-cost, single chip small form factor programmable logic device. The board is designed to be used in the simplest possible implementation targeting the Intel/Altera MAX 10 device.
 
 The MAX_10_Board has a collection of interfaces including two external GPIO headers to extend designs
 beyond the MAX_10_Board, on-board USB-to-serial interface device for interfacing to a PC, as well as
@@ -27,16 +23,16 @@ See the following links for instalation of the toolchain [ quartus + modelsim ] 
 
 The following excercises have been designed to get you started with the toolchain interface and basics of VHDL programming.
 
-### Exercise 1 : Inplementation of NOT gate
+### Exercise 1 : Implementation of NOT gate
  - `1_NOT_BUTTON/`
     - A simple NOT gate is implemented in VHDL
-### Exercise 2 : Implementation of  frequncy deviders 
+### Exercise 2 : Implementation of frequency divider
  - `2_LED_blink/`
-    - Frequncy divider connected to LEDs
-### Exercise 3 : 
+    - Frequency divider connected to LEDs
+### Exercise 3 : 1-99 counter
  - `3_HEX_COUNTER/` 
     - A Counter with outputs encoded and displayed in a 7-Segment Display
-### Exercise 4 :
+### Exercise 4 : Simulation
  - `8bit_Counter_modelsim_simulation/`
    - An 8 bit counter is implemented
    - A testbench is developed for checking the logic
@@ -49,7 +45,7 @@ Additional Exercises available in the [`leanDev`](https://github.com/abunickabhi
    - `5_PseudoRandomNumgerGen/randomBit.vhd` : Driving an LED with a random bit
    - `5_PseudoRandomNumgerGen/randomNumber.vhd` : Display a random number on the 7-segment display
 
-### Fix for `libpng`  error for linux Quartus installation
+### Only for Linux setup: Fix for `libpng`  error for linux Quartus installation
 ```
 sudo add-apt-repository ppa:linuxuprising/libpng12
 sudo apt install libpng12-0
